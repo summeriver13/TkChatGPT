@@ -1,6 +1,7 @@
 import openai
 
-key = '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'
+# 请替换成自己的api
+key = ''
 
 def openai_reply(content):
     openai.api_key = key
